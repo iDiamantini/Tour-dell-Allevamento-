@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <div class="container">
+    <!-- Schermata iniziale -->
+    <div id="start-screen" class="active">
+      <h1>Benvenuto al quiz <br> "il Tour dell'Allevamento i Diamantini!"</h1>
+      <p>Regole:</p>
+      <ul>
+        <li>Leggi attentamente ogni domanda.</li>
+        <li>Cerca gli indizi nel nostro stand.</li>
+        <li>Vai avanti fino a completare il quiz e mostra la schermata finale in cassa per ricevere il tuo regalo.</li>
+      </ul>
+      <button id="start-btn">Inizia il gioco 🐾</button>
+    </div>
+
+    <!-- Contenitore quiz -->
+    <div id="quiz" style="display:none;"></div>
+
+    <!-- Messaggio finale -->
+    <div id="congrats">🎉Complimenti!🎉 <br> Hai completato il tour dell'Allevamento <br> i Diamantini.💎 <br><br>  Mostra questa schermata alla cassa per ricevere il tuo regalo 🎁</div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
