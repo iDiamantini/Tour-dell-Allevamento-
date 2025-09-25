@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(239, 201, 94);
-  background-image: url("progetto senza titolo.png.PNG"); /* zampette nere */ 
+  background-image: url("Progetto senza titolo.png.PNG"); /* zampette nere */ 
   background-size: 100px 100px;
   background-repeat: repeat;
   min-height: 100vh;
@@ -125,3 +125,4 @@ canvas {
 #start-screen li {
   margin-bottom: 8px;
 }
+
